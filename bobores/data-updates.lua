@@ -80,7 +80,12 @@ end
 if bobmods.ores.settings.LeadGivesNickel == true then
   bobmods.lib.resource.add_result(
     "bob-lead-ore",
-    { type = "item", name = "bob-nickel-ore", amount = 1, independent_probability = bobmods.ores.settings.LeadNickelRatio }
+    {
+      type = "item",
+      name = "bob-nickel-ore",
+      amount = 1,
+      independent_probability = bobmods.ores.settings.LeadNickelRatio,
+    }
   )
 end
 
@@ -88,7 +93,12 @@ if bobmods.ores.settings.NickelGivesCobalt == true then
   if bobmods.ores.nickel.enabled then
     bobmods.lib.resource.add_result(
       "bob-nickel-ore",
-      { type = "item", name = "bob-cobalt-ore", amount = 1, independent_probability = bobmods.ores.settings.NickelCobaltRatio }
+      {
+        type = "item",
+        name = "bob-cobalt-ore",
+        amount = 1,
+        independent_probability = bobmods.ores.settings.NickelCobaltRatio,
+      }
     )
   else
     if bobmods.ores.settings.LeadGivesNickel == true then
