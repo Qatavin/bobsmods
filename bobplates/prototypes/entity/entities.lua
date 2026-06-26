@@ -290,7 +290,7 @@ data:extend({
     fluid_boxes = {
       {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
+        pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
         pipe_covers = pipecoverspictures(),
         pipe_connections = {
           { flow_direction = "input", direction = defines.direction.north, position = { 0.5, -0.5 } },
@@ -467,7 +467,7 @@ data:extend({
     fluid_boxes = {
       {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
+        pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
         pipe_covers = pipecoverspictures(),
         pipe_connections = {
           { flow_direction = "input", direction = defines.direction.north, position = { 0.5, -0.5 } },
@@ -529,7 +529,7 @@ data:extend({
     fluid_boxes = {
       {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
+        pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
         pipe_covers = pipecoverspictures(),
         pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
         volume = 1000,
@@ -986,7 +986,7 @@ data:extend({
     collision_box = { { -0.3, -0.3 }, { 0.3, 0.3 } },
     selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
     fluid_box = {
-      pipe_picture = assembler3pipepictures(),
+      pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         { direction = defines.direction.north, position = { 0, -0.20 } },
@@ -1076,7 +1076,7 @@ data:extend({
     collision_box = { { -0.3, -0.3 }, { 0.3, 0.3 } },
     selection_box = { { -0.5, -0.5 }, { 0.5, 0.5 } },
     fluid_box = {
-      pipe_picture = assembler3pipepictures(),
+      pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
         { direction = defines.direction.north, position = { 0, -0.2 } },

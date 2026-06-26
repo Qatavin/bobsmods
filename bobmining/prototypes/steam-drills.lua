@@ -67,7 +67,7 @@ if settings.startup["bobmods-mining-steamminingdrills"].value == true then
         { flow_direction = "input-output", position = { -0.5, 0.5 }, direction = defines.direction.west },
       },
       pipe_covers = pipecoverspictures(),
-      pipe_picture = assembler2pipepictures(),
+      pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler2pipepictures,
       production_type = "input-output",
       filter = "steam",
     },

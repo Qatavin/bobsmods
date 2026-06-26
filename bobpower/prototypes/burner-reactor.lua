@@ -411,7 +411,7 @@ if settings.startup["bobmods-power-heatsources"].value == true then
         { flow_direction = "input-output", position = { -1, 0 }, direction = defines.direction.west },
       },
       pipe_covers = pipecoverspictures(),
-      pipe_picture = assembler2pipepictures(),
+      pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler2pipepictures,
       production_type = "input-output",
     },
     burns_fluid = true,

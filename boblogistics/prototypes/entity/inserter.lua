@@ -95,7 +95,7 @@ data.raw.inserter["bob-steam-inserter"].energy_source = {
       { flow_direction = "input-output", position = { 0, 0 }, direction = defines.direction.west },
     },
     pipe_covers = pipecoverspictures(),
-    pipe_picture = assembler3pipepictures(),
+    pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
     production_type = "input-output",
     filter = "steam",
   },

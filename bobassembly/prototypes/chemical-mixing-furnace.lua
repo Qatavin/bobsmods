@@ -161,7 +161,7 @@ then
       fluid_boxes = {
         {
           production_type = "input",
-          pipe_picture = assembler3pipepictures(),
+          pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
           pipe_covers = pipecoverspictures(),
           pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
           volume = 1000,
@@ -264,7 +264,7 @@ then
       fluid_boxes = {
         {
           production_type = "input",
-          pipe_picture = assembler3pipepictures(),
+          pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler3pipepictures,
           pipe_covers = pipecoverspictures(),
           pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = { 0, -1 } } },
           volume = 1000,

@@ -23,7 +23,7 @@ if settings.startup["bobmods-power-steam"].value == true then
         { flow_direction = "input", position = { 0, 0.5 }, direction = defines.direction.south },
       },
       pipe_covers = pipecoverspictures(),
-      pipe_picture = assembler2pipepictures(),
+      pipe_picture = require("__base__/prototypes/entity/assembler-pictures").assembler2pipepictures,
       production_type = "input",
     },
     burns_fluid = true,
