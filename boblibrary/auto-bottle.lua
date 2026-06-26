@@ -242,7 +242,7 @@ function bobmods.lib.create_gas_bottle(fluid)
     if fill_recipe then
       fill_recipe.localised_name =
         { "recipe-name.fill-gas-canister", fluid.localised_name or { "fluid-name." .. fluid.name } }
-      fill_recipe.category = "bob-air-pump"
+      fill_recipe.categories = { "bob-air-pump" }
       fill_recipe.subgroup = "bob-gas-bottle"
       fill_recipe.icons = generate_fill_gas_bottle_icons(fluid)
 
@@ -256,7 +256,7 @@ function bobmods.lib.create_gas_bottle(fluid)
     if empty_recipe then
       empty_recipe.localised_name =
         { "recipe-name.empty-filled-gas-canister", fluid.localised_name or { "fluid-name." .. fluid.name } }
-      empty_recipe.category = "bob-air-pump"
+      empty_recipe.categories = { "bob-air-pump" }
       empty_recipe.subgroup = "bob-empty-gas-bottle"
       empty_recipe.icons = generate_empty_gas_bottle_icons(fluid)
 
