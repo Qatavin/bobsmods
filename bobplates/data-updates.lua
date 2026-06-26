@@ -168,11 +168,11 @@ bobmods.lib.recipe.add_result("nuclear-fuel-reprocessing", {
 })
 bobmods.lib.recipe.add_result(
   "nuclear-fuel-reprocessing",
-  { type = "item", name = "uranium-235", amount = 1, probability = 0.2 }
+  { type = "item", name = "uranium-235", amount = 1, independent_probability = 0.2 }
 )
 bobmods.lib.recipe.add_result(
   "nuclear-fuel-reprocessing",
-  { type = "item", name = "bob-plutonium-239", amount = 1, probability = 0.8 }
+  { type = "item", name = "bob-plutonium-239", amount = 1, independent_probability = 0.8 }
 )
 bobmods.lib.recipe.add_result("nuclear-fuel-reprocessing", { type = "item", name = "bob-fusion-catalyst", amount = 1 })
 
