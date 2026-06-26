@@ -328,8 +328,12 @@ end
 function bobmods.lib.recipe.has_category(recipe_name, category)
   if type(recipe_name) == "string" and type(category) == "string" then
     local recipe = data.raw.recipe[recipe_name]
-    if recipe and table_find(recipe.categories or {}, category) then
-      return true
+    if recipe then
+      for _, category_name in pairs(recipe.categories or {}) do
+        if category_name == category then
+          return true
+        end
+      end
     end
   else
     log(debug.traceback())
