@@ -34,8 +34,8 @@ elseif data.raw.item["bob-aluminium-plate"] then
   bobmods.lib.tech.add_prerequisite("bob-bodies", "bob-aluminium-processing")
 end
 
-bobmods.lib.recipe.add_additional_category("bob-player-brain", "electronics")
-bobmods.lib.recipe.add_additional_category("bob-player-brain-2", "electronics")
+bobmods.lib.recipe.add_category("bob-player-brain", "electronics")
+bobmods.lib.recipe.add_category("bob-player-brain-2", "electronics")
 
 if data.raw.item["bob-solder"] then
   bobmods.lib.recipe.add_ingredient("bob-player-brain", { type = "item", name = "bob-solder", amount = 5 })

@@ -633,22 +633,4 @@ if settings.startup["bobmods-assembly-electronicmachines"].value == true then
         frozenpatchcovers()
     end
   end
-
-  if mods["space-age"] then
-    -- Prevent non electronics recipes from being craftable in an electronics assembly machine
-    for _, recipe_name in pairs({
-      "accumulator",
-      "beacon",
-      "big-electric-pole",
-      "discharge-defense-equipment",
-      "lightning-rod",
-      "medium-electric-pole",
-      "small-electric-pole",
-      "solar-panel",
-      "substation",
-    }) do
-      bobmods.lib.recipe.set_category(recipe_name, "crafting")
-      bobmods.lib.recipe.add_additional_category(recipe_name, "electromagnetics")
-    end
-  end
 end

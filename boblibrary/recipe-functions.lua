@@ -329,7 +329,7 @@ function bobmods.lib.recipe.set_category(recipe_name, category)
   if type(recipe_name) == "string" and type(category) == "string" then
     local recipe = data.raw.recipe[recipe_name]
     if recipe then
-      recipe.category = category
+      recipe.categories = { category }
     end
   else
     log(debug.traceback())
@@ -361,12 +361,12 @@ function bobmods.lib.recipe.disallow_productivity(recipe_name)
   end
 end
 
-function bobmods.lib.recipe.add_additional_category(recipe_name, category_name)
+function bobmods.lib.recipe.add_category(recipe_name, category_name)
   local recipe = data.raw.recipe[recipe_name]
   local category = data.raw["recipe-category"][category_name]
   if recipe and category then
-    recipe.additional_categories = recipe.additional_categories or {}
-    bobmods.lib.safe_insert(recipe.additional_categories, category_name)
+    recipe.categories = recipe.categories or { "crafting" }
+    bobmods.lib.safe_insert(recipe.categories, category_name)
   end
 end
 

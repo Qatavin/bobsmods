@@ -137,7 +137,7 @@ if not mods["aai-industry"] and settings.startup["bobmods-assembly-burner"].valu
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       },
-      crafting_categories = { "crafting", "basic-crafting", "advanced-crafting" },
+      crafting_categories = { "crafting", "advanced-crafting" },
       crafting_speed = 0.25,
       energy_source = {
         type = "burner",
@@ -294,7 +294,7 @@ if not mods["aai-industry"] and settings.startup["bobmods-assembly-burner"].valu
         },
         idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
       },
-      crafting_categories = { "basic-crafting", "crafting", "advanced-crafting", "crafting-with-fluid" },
+      crafting_categories = { "crafting", "advanced-crafting", "crafting-with-fluid" },
       crafting_speed = 2,
       energy_source = {
         type = "fluid",

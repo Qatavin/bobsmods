@@ -76,7 +76,7 @@ if settings.startup["bobmods-plates-cheapersteel"].value == true then
     {
       type = "recipe",
       name = "steel-plate",
-      category = "bob-chemical-furnace",
+      categories = { "bob-chemical-furnace" },
       enabled = false,
       energy_required = 3.2,
       ingredients = {
@@ -93,7 +93,7 @@ else
     {
       type = "recipe",
       name = "steel-plate",
-      category = "bob-chemical-furnace",
+      categories = { "bob-chemical-furnace" },
       enabled = false,
       energy_required = 16,
       ingredients = {

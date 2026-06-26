@@ -63,13 +63,13 @@ if settings.startup["bobmods-assembly-electronicmachines"].value == true then
   end
 
   -- add new electronics crafting categories
-  bobmods.lib.recipe.add_additional_category("copper-cable", "electronics")
-  bobmods.lib.recipe.add_additional_category("electronic-circuit", "electronics")
-  bobmods.lib.recipe.add_additional_category("advanced-circuit", "electronics")
-  bobmods.lib.recipe.add_additional_category("processing-unit", "electronics")
+  bobmods.lib.recipe.add_category("copper-cable", "electronics")
+  bobmods.lib.recipe.add_category("electronic-circuit", "electronics")
+  bobmods.lib.recipe.add_category("advanced-circuit", "electronics")
+  bobmods.lib.recipe.add_category("processing-unit", "electronics")
 
   if data.raw.recipe["bob-advanced-processing-unit"] then
-    bobmods.lib.recipe.add_additional_category("bob-advanced-processing-unit", "electronics")
+    bobmods.lib.recipe.add_category("bob-advanced-processing-unit", "electronics")
   end
   if data.raw.item["bob-advanced-processing-unit"] then
     bobmods.lib.recipe.replace_ingredient(
