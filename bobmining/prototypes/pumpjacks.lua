@@ -1,12 +1,9 @@
-local hit_effects = require ("__base__/prototypes/entity/hit-effects")
+local hit_effects = require("__base__/prototypes/entity/hit-effects")
 
 local function pumpjack_animation()
-  return
-  {
-    north =
-    {
-      layers =
-      {
+  return {
+    north = {
+      layers = {
         {
           priority = "high",
           filename = "__base__/graphics/entity/pumpjack/pumpjack-horsehead.png",
@@ -16,7 +13,7 @@ local function pumpjack_animation()
           width = 206,
           height = 172,
           frame_count = 40,
-          shift = util.by_pixel(-4.5, -29)
+          shift = util.by_pixel(-4.5, -29),
         },
         {
           priority = "high",
@@ -28,23 +25,22 @@ local function pumpjack_animation()
           height = 78,
           frame_count = 40,
           scale = 0.5,
-          shift = util.by_pixel(17.75, 14.5)
-        }
-      }
-    }
+          shift = util.by_pixel(17.75, 14.5),
+        },
+      },
+    },
   }
 end
 
 local function pumpjack_visualisations(flipped)
-  local base_sheets =
-  {
+  local base_sheets = {
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-base" .. (flipped and "-flipped" or "") .. ".png",
       priority = "extra-high",
       width = 261,
       height = 273,
       shift = util.by_pixel(-2.25, -4.75),
-      scale = 0.5
+      scale = 0.5,
     },
     {
       filename = "__base__/graphics/entity/pumpjack/pumpjack-base" .. (flipped and "-flipped" or "") .. "-shadow.png",
@@ -52,21 +48,21 @@ local function pumpjack_visualisations(flipped)
       height = 273,
       scale = 0.5,
       draw_as_shadow = true,
-      shift = util.by_pixel(-2, -5)
-    }
+      shift = util.by_pixel(-2, -5),
+    },
   }
 
-  local base_visualisation = {always_draw = true, secondary_draw_order = -1}
-  for i, name in pairs{"north_animation", "east_animation", "south_animation", "west_animation"} do
+  local base_visualisation = { always_draw = true, secondary_draw_order = -1 }
+  for i, name in pairs({ "north_animation", "east_animation", "south_animation", "west_animation" }) do
     local layers = {}
     for _, sheet in pairs(base_sheets) do
       sheet = table.deepcopy(sheet)
       sheet.x = sheet.width * (i - 1)
       table.insert(layers, sheet)
     end
-    base_visualisation[name] = {layers = layers}
+    base_visualisation[name] = { layers = layers }
   end
-  return {base_visualisation}
+  return { base_visualisation }
 end
 
 data.raw["mining-drill"]["pumpjack"].fast_replaceable_group = "pumpjack"
@@ -239,19 +235,19 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       use_mirroring = true,
       graphics_set = {
         animation = pumpjack_animation(),
-        working_visualisations = pumpjack_visualisations(false)
+        working_visualisations = pumpjack_visualisations(false),
       },
       graphics_set_flipped = {
         animation = pumpjack_animation(),
-        working_visualisations = pumpjack_visualisations(true)
+        working_visualisations = pumpjack_visualisations(true),
       },
-      open_sound = {filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5},
-      close_sound = {filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5},
+      open_sound = { filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5 },
+      close_sound = { filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5 },
       working_sound = {
-        sound = {filename = "__base__/sound/pumpjack.ogg", volume = 0.7, audible_distance_modifier = 0.6},
+        sound = { filename = "__base__/sound/pumpjack.ogg", volume = 0.7, audible_distance_modifier = 0.6 },
         max_sounds_per_prototype = 3,
         fade_in_ticks = 4,
-        fade_out_ticks = 10
+        fade_out_ticks = 10,
       },
       fast_replaceable_group = "pumpjack",
       circuit_connector = circuit_connector_definitions["pumpjack"],
@@ -303,19 +299,19 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       use_mirroring = true,
       graphics_set = {
         animation = pumpjack_animation(),
-        working_visualisations = pumpjack_visualisations(false)
+        working_visualisations = pumpjack_visualisations(false),
       },
       graphics_set_flipped = {
         animation = pumpjack_animation(),
-        working_visualisations = pumpjack_visualisations(true)
+        working_visualisations = pumpjack_visualisations(true),
       },
-      open_sound = {filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5},
-      close_sound = {filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5},
+      open_sound = { filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5 },
+      close_sound = { filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5 },
       working_sound = {
-        sound = {filename = "__base__/sound/pumpjack.ogg", volume = 0.7, audible_distance_modifier = 0.6},
+        sound = { filename = "__base__/sound/pumpjack.ogg", volume = 0.7, audible_distance_modifier = 0.6 },
         max_sounds_per_prototype = 3,
         fade_in_ticks = 4,
-        fade_out_ticks = 10
+        fade_out_ticks = 10,
       },
       fast_replaceable_group = "pumpjack",
       circuit_connector = circuit_connector_definitions["pumpjack"],
@@ -367,19 +363,19 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       use_mirroring = true,
       graphics_set = {
         animation = pumpjack_animation(),
-        working_visualisations = pumpjack_visualisations(false)
+        working_visualisations = pumpjack_visualisations(false),
       },
       graphics_set_flipped = {
         animation = pumpjack_animation(),
-        working_visualisations = pumpjack_visualisations(true)
+        working_visualisations = pumpjack_visualisations(true),
       },
-      open_sound = {filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5},
-      close_sound = {filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5},
+      open_sound = { filename = "__base__/sound/open-close/pumpjack-open.ogg", volume = 0.5 },
+      close_sound = { filename = "__base__/sound/open-close/pumpjack-close.ogg", volume = 0.5 },
       working_sound = {
-        sound = {filename = "__base__/sound/pumpjack.ogg", volume = 0.7, audible_distance_modifier = 0.6},
+        sound = { filename = "__base__/sound/pumpjack.ogg", volume = 0.7, audible_distance_modifier = 0.6 },
         max_sounds_per_prototype = 3,
         fade_in_ticks = 4,
-        fade_out_ticks = 10
+        fade_out_ticks = 10,
       },
       fast_replaceable_group = "pumpjack",
       circuit_connector = circuit_connector_definitions["pumpjack"],
