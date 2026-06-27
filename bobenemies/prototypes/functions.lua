@@ -18,11 +18,11 @@
 
 --Biters:
 -- Needed: name, order, tint, tint2, full attack_parameters except for attack sound and animation
--- Optional: icon, icon_size, flags, max_health, healing_per_tick, factoriopedia_simulation, resistances, impact_category, spawning_time_modifier, distraction_cooldown, min_pursue_time, max_pursue_distance, damaged_trigger_effect, absorptions_to_join_attack, movement_speed, distance_per_frame, range, vision_distance
+-- Optional: icon, icon_size, flags, max_health, healing_per_tick, factoriopedia_simulation, resistances, impact_category, spawning_time_modifier, distraction_cooldown, min_pursue_time, max_pursue_distance, damaged_trigger_effect, absorptions_to_join_attack, movement_speed, distance_per_frame, range, vision_distance, buildable_entities
 
 --Spitters:
 -- Needed: name, order, tint, tint2. A sticker_name or fire_sticker_name is required even if sticker already exists, or else the sticker won't be included in the new prototypes (stickers will only be generated once per name, so only the first instance needs parameters). Stickers can also be removed from fires(acid splash) with no_sticker_from_fire.
--- Optional: icon, icon_size, flags, max_health, healing_per_tick, factoriopedia_simulation, resistances, impact_category, damaged_trigger_effect, spawning_time_modifier, distraction_cooldown, min_pursue_time, max_pursue_distance, absorptions_to_join_attack, movement_speed, distance_per_frame, range, vision_distance and most attack_parameters
+-- Optional: icon, icon_size, flags, max_health, healing_per_tick, factoriopedia_simulation, resistances, impact_category, damaged_trigger_effect, spawning_time_modifier, distraction_cooldown, min_pursue_time, max_pursue_distance, absorptions_to_join_attack, movement_speed, distance_per_frame, range, vision_distance, buildable_entities, and most attack_parameters
 
 --Worms:
 -- Needed: name, order, tint. A sticker_name or fire_sticker_name is required even if sticker already exists, or else the sticker won't be included in the new prototypes (stickers will only be generated once per name, so only the first instance needs parameters). Stickers can also be removed from fires(acid splash) with no_sticker_from_fire.
@@ -35,7 +35,7 @@
 
 --Spawners:
 -- Needed: name, order, tint, class(biter, spitter, or super - higher tier that spawns both), element(except if basic), artifact_color(if colored artifacts are enabled).
--- Optional: tint2(note: use subtle coloring), icon, icon_size, flags, max_health, healing_per_tick, resistances, impact_category, damaged_trigger_effect, absorptions_per_second, max_count_of_owned_units, max_friends_around_to_spawn, spawning_cooldown, build_base_evolution_requirement, call_for_help_radius, time_to_capture, result_units(required if vanilla enemies are mixed in)
+-- Optional: tint2(note: use subtle coloring), icon, icon_size, flags, max_health, healing_per_tick, resistances, impact_category, damaged_trigger_effect, absorptions_per_second, max_count_of_owned_units, max_friends_around_to_spawn, spawning_cooldown, call_for_help_radius, time_to_capture, result_units(required if vanilla enemies are mixed in)
 
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -664,6 +664,7 @@ function bobmods.enemies.new_biter(inputs)
     running_sound_animation_positions = { 2 },
     ai_settings = inputs.ai_settings or default_ai,
     water_reflection = biter_water_reflection(final_scale),
+    buildable_entities = inputs.buildable_entities,
   }
   if inputs.icons then
     biter_prototype.icons = inputs.icons
@@ -1324,6 +1325,7 @@ function bobmods.enemies.new_spitter(inputs)
     running_sound_animation_positions = { 2 },
     ai_settings = inputs.ai_settings or default_ai,
     water_reflection = spitter_water_reflection(final_scale),
+    buildable_entities = inputs.buildable_entities,
   }
   if inputs.icons then
     spitter_prototype.icons = inputs.icons
@@ -2804,7 +2806,6 @@ function bobmods.enemies.new_worm(inputs)
         },
       },
     },
-    build_base_evolution_requirement = inputs.build_base_evolution_requirement or 1.01,
     autoplace = inputs.autoplace,
     call_for_help_radius = inputs.call_for_help_radius or worm_stats[tier].call_for_help_radius,
     spawn_decorations_on_expansion = true,
@@ -3075,7 +3076,6 @@ function bobmods.enemies.new_spawner(inputs)
     max_spawn_shift = 0,
     max_richness_for_spawn_shift = 100,
     autoplace = inputs.autoplace,
-    build_base_evolution_requirement = inputs.build_base_evolution_requirement or 1.01,
     call_for_help_radius = inputs.call_for_help_radius or 50,
     time_to_capture = inputs.time_to_capture or 1200,
     map_color = inputs.map_color,

@@ -10,7 +10,6 @@ bobmods.enemies.new_worm({
   explosion_resist = "high",
   tint = bobmods.enemies.small_worm_tint,
   autoplace = enemy_autoplace.enemy_worm_autoplace("enemy_autoplace_base(0, 2)"),
-  build_base_evolution_requirement = 0,
 
   sticker_name = "acid-sticker-small",
 
@@ -38,7 +37,6 @@ bobmods.enemies.new_worm({
   explosion_resist = "high",
   tint = bobmods.enemies.medium_worm_tint,
   autoplace = enemy_autoplace.enemy_worm_autoplace("enemy_autoplace_base(2, 3)"),
-  build_base_evolution_requirement = 0.3,
 
   sticker_name = "acid-sticker-medium",
 
@@ -67,7 +65,6 @@ bobmods.enemies.new_worm({
   explosion_resist = "high",
   tint = bobmods.enemies.big_worm_tint,
   autoplace = enemy_autoplace.enemy_worm_autoplace("enemy_autoplace_base(4, 4)"),
-  build_base_evolution_requirement = 0.45,
 
   sticker_name = "acid-sticker-big",
 
