@@ -68,7 +68,7 @@ data:extend({
             scale = 0.5,
           },
           east = {
-            filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-E.png",
+            filename = "__bobgreenhouse__/graphics/entity/greenhouse-pipe-E.png",
             priority = "extra-high",
             width = 42,
             height = 76,
@@ -76,7 +76,7 @@ data:extend({
             scale = 0.5,
           },
           south = {
-            filename = "__base__/graphics/entity/assembling-machine-3/assembling-machine-3-pipe-S.png",
+            filename = "__bobgreenhouse__/graphics/entity/greenhouse-pipe-S.png",
             priority = "extra-high",
             width = 88,
             height = 61,
