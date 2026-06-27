@@ -299,7 +299,7 @@ data:extend({
         volume = 1000,
       },
     },
-    forced_symmetry = "vertical",
+    use_mirroring = true,
     collision_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
     selection_box = { { -1, -1 }, { 1, 1 } },
     icon_draw_specification = {
@@ -477,7 +477,7 @@ data:extend({
       },
     },
     fluid_boxes_off_when_no_fluid_recipe = true,
-    forced_symmetry = "vertical",
+    use_mirroring = true,
     collision_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
     selection_box = { { -1, -1 }, { 1, 1 } },
     icon_draw_specification = {
