@@ -1,7 +1,8 @@
 data.raw["storage-tank"]["storage-tank"].icon = "__boblogistics__/graphics/icons/storage-tank-1.png"
-data.raw["storage-tank"]["storage-tank"].fast_replaceable_group = "pipe"
 data.raw["storage-tank"]["storage-tank"].next_upgrade = "bob-storage-tank-2"
 
+local hit_effects = require("__base__/prototypes/entity/hit-effects")
+local sounds = require("__base__/prototypes/entity/sounds")
 local storagetankbase = settings.startup["bobmods-logistics-storagetankbase"].value * 1000
 data.raw["storage-tank"]["storage-tank"].fluid_box.volume = storagetankbase
 table.insert(data.raw["storage-tank"]["storage-tank"].pictures.picture.sheets, 2, {
