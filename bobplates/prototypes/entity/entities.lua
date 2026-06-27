@@ -205,6 +205,7 @@ data:extend({
     circuit_connector = circuit_connector_definitions["bob-electrolyser"],
     crafting_categories = { "bob-electrolysis" },
     allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+    use_mirroring = true,
     module_slots = 1,
     icons_positioning = {
       {

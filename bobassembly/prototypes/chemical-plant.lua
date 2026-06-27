@@ -251,6 +251,7 @@ if settings.startup["bobmods-assembly-chemicalplants"].value == true then
       selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
       drawing_box_vertical_extension = 0.6,
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 4,
       icon_draw_specification = {
         shift = { 0, -0.3 },
@@ -291,6 +292,7 @@ if settings.startup["bobmods-assembly-chemicalplants"].value == true then
       selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
       drawing_box_vertical_extension = 0.6,
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 5,
       icons_positioning = {
         {
@@ -339,6 +341,7 @@ if settings.startup["bobmods-assembly-chemicalplants"].value == true then
       selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
       drawing_box_vertical_extension = 0.6,
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 6,
       icons_positioning = {
         {

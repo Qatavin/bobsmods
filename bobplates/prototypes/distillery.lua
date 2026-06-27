@@ -479,6 +479,7 @@ if settings.startup["bobmods-plates-purewater"].value == true then
         working_visualisations = bobmods.plates.distillery_working_visualisations_flipped(1),
       },
       allowed_effects = { "consumption", "speed", "pollution" },
+      use_mirroring = true,
       module_slots = 1,
       icons_positioning = {
         {

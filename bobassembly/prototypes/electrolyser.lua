@@ -278,6 +278,7 @@ then
       circuit_connector = circuit_connector_definitions["bob-electrolyser"],
       crafting_categories = { "bob-electrolysis" },
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 3,
       icons_positioning = {
         {
@@ -324,6 +325,7 @@ then
       circuit_connector = circuit_connector_definitions["bob-electrolyser"],
       crafting_categories = { "bob-electrolysis" },
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 4,
       icons_positioning = {
         {
@@ -370,6 +372,7 @@ then
       circuit_connector = circuit_connector_definitions["bob-electrolyser"],
       crafting_categories = { "bob-electrolysis" },
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 5,
       icons_positioning = {
         {
@@ -417,6 +420,7 @@ then
       circuit_connector = circuit_connector_definitions["bob-electrolyser"],
       crafting_categories = { "bob-electrolysis" },
       allowed_effects = { "consumption", "speed", "productivity", "pollution" },
+      use_mirroring = true,
       module_slots = 6,
       icons_positioning = {
         {
