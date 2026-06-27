@@ -12,7 +12,7 @@ if settings.startup["bobmods-assembly-centrifuge"].value == true then
       subgroup = "production-machine",
       order = "g[centrifuge-2]",
       place_result = "bob-centrifuge-2",
-      stack_size = 50,
+      stack_size = 10,
       drop_sound = {
         filename = "__base__/sound/item/mechanical-inventory-move.ogg",
         volume = 0.7,
@@ -35,7 +35,7 @@ if settings.startup["bobmods-assembly-centrifuge"].value == true then
       subgroup = "production-machine",
       order = "g[centrifuge-3]",
       place_result = "bob-centrifuge-3",
-      stack_size = 50,
+      stack_size = 10,
       drop_sound = {
         filename = "__base__/sound/item/mechanical-inventory-move.ogg",
         volume = 0.7,
