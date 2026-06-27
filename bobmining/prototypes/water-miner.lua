@@ -35,7 +35,9 @@ end
 local function water_miner_visualisations(flipped)
   local base_sheets = {
     {
-      filename = "__bobmining__/graphics/entity/water-miner/water-miner-base" .. (flipped and "-flipped" or "") .. ".png",
+      filename = "__bobmining__/graphics/entity/water-miner/water-miner-base"
+        .. (flipped and "-flipped" or "")
+        .. ".png",
       priority = "extra-high",
       width = 261,
       height = 273,
@@ -43,7 +45,9 @@ local function water_miner_visualisations(flipped)
       scale = 0.5,
     },
     {
-      filename = "__bobmining__/graphics/entity/water-miner/water-miner-base" .. (flipped and "-flipped" or "") .. "-shadow.png",
+      filename = "__bobmining__/graphics/entity/water-miner/water-miner-base"
+        .. (flipped and "-flipped" or "")
+        .. "-shadow.png",
       width = 220,
       height = 220,
       scale = 0.5,
