@@ -20,7 +20,6 @@ bobmods.ores.water = {
       name = "water",
       amount_min = 10,
       amount_max = 10,
-      independent_probability = 1,
     },
   },
   sprite = {
@@ -90,7 +89,6 @@ bobmods.ores.lithia_water = {
       name = "bob-lithia-water",
       amount_min = 10,
       amount_max = 10,
-      independent_probability = 1,
     },
   },
   sprite = {

@@ -102,7 +102,7 @@ function bobmods.lib.item.ingredient(inputs) --returns a valid ingredient only i
   end
 end
 
---Same as ingredient, but has support for amount_min, amount_max and independent_probability
+--Same as ingredient, but has support for amount_min, amount_max, independent_probability, and shared_probability
 function bobmods.lib.item.result_simple(inputs)
   local item = {}
 
@@ -128,6 +128,10 @@ function bobmods.lib.item.result_simple(inputs)
 
     if inputs.independent_probability then
       item.independent_probability = inputs.independent_probability
+    end
+
+    if inputs.shared_probability then
+      item.shared_probability = inputs.shared_probability
     end
 
     if inputs.type then
@@ -176,6 +180,7 @@ function bobmods.lib.item.result_simple(inputs)
     type(item.name) == "string"
     and (type(item.amount) == "number" or (type(item.amount_min) == "number" and type(item.amount_max) == "number"))
     and (item.independent_probability == nil or type(item.independent_probability) == "number")
+    and (item.shared_probability == nil or type(item.shared_probability) == "table")
     and (item.type == "item" or item.type == "fluid")
   then
     return item
