@@ -311,7 +311,7 @@ if settings.startup["bobmods-power-solar"].value == true then
       max_health = 300,
       corpse = "solar-panel-remnants",
       dying_explosion = "solar-panel-explosion",
-      collision_box = {{ -1.35, -1.35 }, { 1.35, 1.35 }},
+      collision_box = { { -1.35, -1.35 }, { 1.35, 1.35 } },
       selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
       damaged_trigger_effect = hit_effects.entity(),
       energy_source = {
@@ -383,10 +383,10 @@ if settings.startup["bobmods-power-solar"].value == true then
           height = 24,
           shift = util.by_pixel(5, 40),
           variation_count = 1,
-          scale = 5
+          scale = 5,
         },
         rotate = false,
-        orientation_to_variation = false
+        orientation_to_variation = false,
       },
       next_upgrade = "bob-solar-panel-3",
     },
@@ -560,7 +560,7 @@ if settings.startup["bobmods-power-solar"].value == true then
       max_health = 400,
       corpse = "solar-panel-remnants",
       dying_explosion = "solar-panel-explosion",
-      collision_box = {{ -1.35, -1.35 }, { 1.35, 1.35 }},
+      collision_box = { { -1.35, -1.35 }, { 1.35, 1.35 } },
       selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
       damaged_trigger_effect = hit_effects.entity(),
       energy_source = {
@@ -632,10 +632,10 @@ if settings.startup["bobmods-power-solar"].value == true then
           height = 24,
           shift = util.by_pixel(5, 40),
           variation_count = 1,
-          scale = 5
+          scale = 5,
         },
         rotate = false,
-        orientation_to_variation = false
+        orientation_to_variation = false,
       },
     },
 

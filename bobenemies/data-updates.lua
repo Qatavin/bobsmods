@@ -16,58 +16,46 @@ then
     if data.raw.unit["medium-biter"].loot == nil then
       data.raw.unit["medium-biter"].loot = {}
     end
-    table.insert(
-      data.raw.unit["medium-biter"].loot,
-      {
-        type = "item",
-        name = "bob-small-alien-artifact",
-        amount_min = 1,
-        amount_max = 1,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.unit["medium-biter"].loot, {
+      type = "item",
+      name = "bob-small-alien-artifact",
+      amount_min = 1,
+      amount_max = 1,
+      independent_probability = 0.5,
+    })
 
     if data.raw.unit["medium-spitter"].loot == nil then
       data.raw.unit["medium-spitter"].loot = {}
     end
-    table.insert(
-      data.raw.unit["medium-spitter"].loot,
-      {
-        type = "item",
-        name = "bob-small-alien-artifact",
-        amount_min = 1,
-        amount_max = 1,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.unit["medium-spitter"].loot, {
+      type = "item",
+      name = "bob-small-alien-artifact",
+      amount_min = 1,
+      amount_max = 1,
+      independent_probability = 0.5,
+    })
 
     if data.raw.unit["big-biter"].loot == nil then
       data.raw.unit["big-biter"].loot = {}
     end
-    table.insert(
-      data.raw.unit["big-biter"].loot,
-      {
-        type = "item",
-        name = "bob-small-alien-artifact",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.75,
-      }
-    )
+    table.insert(data.raw.unit["big-biter"].loot, {
+      type = "item",
+      name = "bob-small-alien-artifact",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.75,
+    })
 
     if data.raw.unit["big-spitter"].loot == nil then
       data.raw.unit["big-spitter"].loot = {}
     end
-    table.insert(
-      data.raw.unit["big-spitter"].loot,
-      {
-        type = "item",
-        name = "bob-small-alien-artifact",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.75,
-      }
-    )
+    table.insert(data.raw.unit["big-spitter"].loot, {
+      type = "item",
+      name = "bob-small-alien-artifact",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.75,
+    })
 
     table.insert(
       data.raw.unit["bob-huge-biter"].loot,
@@ -105,444 +93,318 @@ then
         data.raw.unit["behemoth-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["behemoth-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 2,
-          amount_max = 4,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["behemoth-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 2,
-          amount_max = 4,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["behemoth-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 2,
-          amount_max = 4,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["behemoth-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 2,
+        amount_max = 4,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["behemoth-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 2,
+        amount_max = 4,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["behemoth-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 2,
+        amount_max = 4,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["behemoth-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["behemoth-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 2,
-          amount_max = 4,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["behemoth-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 2,
-          amount_max = 4,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["behemoth-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 2,
-          amount_max = 4,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["behemoth-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 2,
+        amount_max = 4,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["behemoth-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 2,
+        amount_max = 4,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["behemoth-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 2,
+        amount_max = 4,
+        independent_probability = 0.5,
+      })
 
       --Duplicated with and without small artifacts
       table.insert(
         data.raw.unit["bob-leviathan-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
 
-      table.insert(
-        data.raw.unit["bob-medium-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-medium-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-electric-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-acid-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-poison-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-fire-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
 
-      table.insert(
-        data.raw.unit["bob-big-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
+      table.insert(data.raw.unit["bob-big-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-electric-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-acid-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-poison-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-fire-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
 
       table.insert(
         data.raw.unit["bob-huge-piercing-biter"].loot,
@@ -699,16 +561,13 @@ then
         data.raw.unit["bob-behemoth-piercing-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact-blue", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-piercing-spitter"].loot,
@@ -718,16 +577,13 @@ then
         data.raw.unit["bob-behemoth-piercing-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact-blue", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-electric-biter"].loot,
@@ -737,16 +593,13 @@ then
         data.raw.unit["bob-behemoth-electric-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact-orange", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-electric-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-electric-spitter"].loot,
@@ -756,16 +609,13 @@ then
         data.raw.unit["bob-behemoth-electric-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact-orange", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-acid-biter"].loot,
@@ -775,16 +625,13 @@ then
         data.raw.unit["bob-behemoth-acid-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact-purple", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-acid-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-acid-spitter"].loot,
@@ -794,16 +641,13 @@ then
         data.raw.unit["bob-behemoth-acid-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact-purple", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-explosive-biter"].loot,
@@ -813,16 +657,13 @@ then
         data.raw.unit["bob-behemoth-explosive-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact-yellow", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-explosive-spitter"].loot,
@@ -832,16 +673,13 @@ then
         data.raw.unit["bob-behemoth-explosive-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact-yellow", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-poison-biter"].loot,
@@ -851,16 +689,13 @@ then
         data.raw.unit["bob-behemoth-poison-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact-green", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-poison-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-poison-spitter"].loot,
@@ -870,16 +705,13 @@ then
         data.raw.unit["bob-behemoth-poison-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact-green", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-fire-biter"].loot,
@@ -889,16 +721,13 @@ then
         data.raw.unit["bob-behemoth-fire-biter"].loot,
         { type = "item", name = "bob-small-alien-artifact-red", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-fire-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-behemoth-fire-spitter"].loot,
@@ -908,16 +737,13 @@ then
         data.raw.unit["bob-behemoth-fire-spitter"].loot,
         { type = "item", name = "bob-small-alien-artifact-red", amount_min = 5, amount_max = 9 }
       )
-      table.insert(
-        data.raw.unit["bob-behemoth-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-behemoth-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.5,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-piercing-biter"].loot,
@@ -927,56 +753,41 @@ then
         data.raw.unit["bob-leviathan-piercing-biter"].loot,
         { type = "item", name = "bob-alien-artifact-blue", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-piercing-spitter"].loot,
@@ -986,583 +797,433 @@ then
         data.raw.unit["bob-leviathan-piercing-spitter"].loot,
         { type = "item", name = "bob-alien-artifact-blue", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-electric-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-electric-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-electric-biter"].loot,
         { type = "item", name = "bob-alien-artifact-orange", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-electric-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-electric-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-electric-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-electric-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-electric-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-electric-spitter"].loot,
         { type = "item", name = "bob-alien-artifact-orange", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-acid-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-acid-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-acid-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-acid-biter"].loot,
         { type = "item", name = "bob-alien-artifact-purple", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-acid-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-acid-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-acid-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-acid-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-acid-spitter"].loot,
         { type = "item", name = "bob-alien-artifact-purple", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-explosive-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-explosive-biter"].loot,
         { type = "item", name = "bob-alien-artifact-yellow", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-explosive-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-explosive-spitter"].loot,
         { type = "item", name = "bob-alien-artifact-yellow", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-poison-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-poison-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-poison-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-poison-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-poison-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-poison-biter"].loot,
         { type = "item", name = "bob-alien-artifact-green", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-poison-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-poison-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-poison-spitter"].loot,
         { type = "item", name = "bob-alien-artifact-green", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-fire-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-fire-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-fire-biter"].loot,
         { type = "item", name = "bob-alien-artifact-red", amount_min = 2, amount_max = 3 }
@@ -1572,56 +1233,41 @@ then
         data.raw.unit["bob-leviathan-fire-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 1, amount_max = 2 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.4,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
+      table.insert(data.raw.unit["bob-leviathan-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.4,
+      })
       table.insert(
         data.raw.unit["bob-leviathan-fire-spitter"].loot,
         { type = "item", name = "bob-alien-artifact-red", amount_min = 2, amount_max = 3 }
@@ -1645,247 +1291,175 @@ then
         { type = "item", name = "bob-alien-artifact", amount_min = 3, amount_max = 10 }
       )
 
-      table.insert(
-        data.raw.unit["bob-medium-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-medium-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 1,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-medium-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-electric-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-acid-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-poison-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-fire-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-medium-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 1,
+        independent_probability = 0.5,
+      })
 
-      table.insert(
-        data.raw.unit["bob-big-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-big-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-small-alien-artifact",
-          amount_min = 1,
-          amount_max = 3,
-          independent_probability = 0.75,
-        }
-      )
+      table.insert(data.raw.unit["bob-big-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-electric-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-acid-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-poison-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-fire-biter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-big-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-small-alien-artifact",
+        amount_min = 1,
+        amount_max = 3,
+        independent_probability = 0.75,
+      })
 
       table.insert(
         data.raw.unit["bob-huge-piercing-biter"].loot,
@@ -2155,152 +1729,110 @@ then
         data.raw.unit["bob-leviathan-biter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
 
       table.insert(
         data.raw.unit["bob-leviathan-spitter"].loot,
         { type = "item", name = "bob-alien-artifact", amount_min = 2, amount_max = 3 }
       )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.25,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-leviathan-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.75,
-        }
-      )
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.25,
+      })
+      table.insert(data.raw.unit["bob-leviathan-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.75,
+      })
 
-      table.insert(
-        data.raw.unit["bob-titan-piercing-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-titan-piercing-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-blue",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-titan-piercing-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-titan-piercing-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-blue",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
       table.insert(
         data.raw.unit["bob-behemoth-piercing-biter"].loot,
         { type = "item", name = "bob-alien-artifact-blue", amount_min = 1, amount_max = 2 }
@@ -2318,26 +1850,20 @@ then
         { type = "item", name = "bob-alien-artifact-blue", amount_min = 5, amount_max = 9 }
       )
 
-      table.insert(
-        data.raw.unit["bob-titan-electric-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-titan-electric-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-orange",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-titan-electric-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-titan-electric-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-orange",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
       table.insert(
         data.raw.unit["bob-behemoth-electric-biter"].loot,
         { type = "item", name = "bob-alien-artifact-orange", amount_min = 1, amount_max = 2 }
@@ -2355,26 +1881,20 @@ then
         { type = "item", name = "bob-alien-artifact-orange", amount_min = 5, amount_max = 9 }
       )
 
-      table.insert(
-        data.raw.unit["bob-titan-acid-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-titan-acid-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-purple",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-titan-acid-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-titan-acid-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-purple",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
       table.insert(
         data.raw.unit["bob-behemoth-acid-biter"].loot,
         { type = "item", name = "bob-alien-artifact-purple", amount_min = 1, amount_max = 2 }
@@ -2392,26 +1912,20 @@ then
         { type = "item", name = "bob-alien-artifact-purple", amount_min = 5, amount_max = 9 }
       )
 
-      table.insert(
-        data.raw.unit["bob-titan-explosive-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-titan-explosive-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-yellow",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-titan-explosive-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-titan-explosive-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-yellow",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
       table.insert(
         data.raw.unit["bob-behemoth-explosive-biter"].loot,
         { type = "item", name = "bob-alien-artifact-yellow", amount_min = 1, amount_max = 2 }
@@ -2429,26 +1943,20 @@ then
         { type = "item", name = "bob-alien-artifact-yellow", amount_min = 5, amount_max = 9 }
       )
 
-      table.insert(
-        data.raw.unit["bob-titan-poison-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-titan-poison-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-green",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-titan-poison-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-titan-poison-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-green",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
       table.insert(
         data.raw.unit["bob-behemoth-poison-biter"].loot,
         { type = "item", name = "bob-alien-artifact-green", amount_min = 1, amount_max = 2 }
@@ -2466,26 +1974,20 @@ then
         { type = "item", name = "bob-alien-artifact-green", amount_min = 5, amount_max = 9 }
       )
 
-      table.insert(
-        data.raw.unit["bob-titan-fire-biter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
-      table.insert(
-        data.raw.unit["bob-titan-fire-spitter"].loot,
-        {
-          type = "item",
-          name = "bob-alien-artifact-red",
-          amount_min = 1,
-          amount_max = 2,
-          independent_probability = 0.5,
-        }
-      )
+      table.insert(data.raw.unit["bob-titan-fire-biter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
+      table.insert(data.raw.unit["bob-titan-fire-spitter"].loot, {
+        type = "item",
+        name = "bob-alien-artifact-red",
+        amount_min = 1,
+        amount_max = 2,
+        independent_probability = 0.5,
+      })
       table.insert(
         data.raw.unit["bob-behemoth-fire-biter"].loot,
         { type = "item", name = "bob-alien-artifact-red", amount_min = 1, amount_max = 2 }
@@ -3177,46 +2679,34 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
       data.raw.turret["behemoth-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-blue", amount_min = 1, amount_max = 2, independent_probability = 0.5 }
     )
-    table.insert(
-      data.raw.turret["behemoth-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-orange",
-        amount_min = 1,
-        amount_max = 2,
-        independent_probability = 0.5,
-      }
-    )
-    table.insert(
-      data.raw.turret["behemoth-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-purple",
-        amount_min = 1,
-        amount_max = 2,
-        independent_probability = 0.5,
-      }
-    )
-    table.insert(
-      data.raw.turret["behemoth-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-yellow",
-        amount_min = 1,
-        amount_max = 2,
-        independent_probability = 0.5,
-      }
-    )
-    table.insert(
-      data.raw.turret["behemoth-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-green",
-        amount_min = 1,
-        amount_max = 2,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.turret["behemoth-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-orange",
+      amount_min = 1,
+      amount_max = 2,
+      independent_probability = 0.5,
+    })
+    table.insert(data.raw.turret["behemoth-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-purple",
+      amount_min = 1,
+      amount_max = 2,
+      independent_probability = 0.5,
+    })
+    table.insert(data.raw.turret["behemoth-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-yellow",
+      amount_min = 1,
+      amount_max = 2,
+      independent_probability = 0.5,
+    })
+    table.insert(data.raw.turret["behemoth-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-green",
+      amount_min = 1,
+      amount_max = 2,
+      independent_probability = 0.5,
+    })
     table.insert(
       data.raw.turret["behemoth-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-red", amount_min = 1, amount_max = 2, independent_probability = 0.5 }
@@ -3230,46 +2720,34 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
       data.raw.turret["bob-leviathan-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-blue", amount_min = 1, amount_max = 3, independent_probability = 0.5 }
     )
-    table.insert(
-      data.raw.turret["bob-leviathan-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-orange",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
-    table.insert(
-      data.raw.turret["bob-leviathan-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-purple",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
-    table.insert(
-      data.raw.turret["bob-leviathan-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-yellow",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
-    table.insert(
-      data.raw.turret["bob-leviathan-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-green",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.turret["bob-leviathan-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-orange",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
+    table.insert(data.raw.turret["bob-leviathan-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-purple",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
+    table.insert(data.raw.turret["bob-leviathan-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-yellow",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
+    table.insert(data.raw.turret["bob-leviathan-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-green",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
     table.insert(
       data.raw.turret["bob-leviathan-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-red", amount_min = 1, amount_max = 3, independent_probability = 0.5 }
@@ -3332,16 +2810,13 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
       data.raw.turret["bob-behemoth-piercing-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-blue", amount_min = 4, amount_max = 10 }
     )
-    table.insert(
-      data.raw.turret["bob-behemoth-piercing-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-yellow",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.turret["bob-behemoth-piercing-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-yellow",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
 
     table.insert(
       data.raw.turret["bob-leviathan-piercing-worm-turret"].loot,
@@ -3417,16 +2892,13 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
       data.raw.turret["bob-behemoth-electric-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-orange", amount_min = 4, amount_max = 10 }
     )
-    table.insert(
-      data.raw.turret["bob-behemoth-electric-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-purple",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.turret["bob-behemoth-electric-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-purple",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
 
     table.insert(
       data.raw.turret["bob-leviathan-electric-worm-turret"].loot,
@@ -3581,16 +3053,13 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
       data.raw.turret["bob-behemoth-explosive-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-yellow", amount_min = 4, amount_max = 10 }
     )
-    table.insert(
-      data.raw.turret["bob-behemoth-explosive-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-green",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.turret["bob-behemoth-explosive-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-green",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
 
     table.insert(
       data.raw.turret["bob-leviathan-explosive-worm-turret"].loot,
@@ -3666,16 +3135,13 @@ if settings.startup["bobmods-enemies-enableartifacts"].value == true then
       data.raw.turret["bob-behemoth-poison-worm-turret"].loot,
       { type = "item", name = "bob-alien-artifact-green", amount_min = 4, amount_max = 10 }
     )
-    table.insert(
-      data.raw.turret["bob-behemoth-poison-worm-turret"].loot,
-      {
-        type = "item",
-        name = "bob-alien-artifact-orange",
-        amount_min = 1,
-        amount_max = 3,
-        independent_probability = 0.5,
-      }
-    )
+    table.insert(data.raw.turret["bob-behemoth-poison-worm-turret"].loot, {
+      type = "item",
+      name = "bob-alien-artifact-orange",
+      amount_min = 1,
+      amount_max = 3,
+      independent_probability = 0.5,
+    })
 
     table.insert(
       data.raw.turret["bob-leviathan-poison-worm-turret"].loot,
