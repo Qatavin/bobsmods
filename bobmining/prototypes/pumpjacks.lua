@@ -251,7 +251,7 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       },
       fast_replaceable_group = "pumpjack",
       circuit_connector = circuit_connector_definitions["pumpjack"],
-      circuit_wire_max_distance = default_circuit_wire_max_distance,
+      circuit_wire_max_distance = 10,
       next_upgrade = "bob-pumpjack-2",
     },
     {
@@ -315,7 +315,7 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       },
       fast_replaceable_group = "pumpjack",
       circuit_connector = circuit_connector_definitions["pumpjack"],
-      circuit_wire_max_distance = default_circuit_wire_max_distance,
+      circuit_wire_max_distance = 12.5,
       next_upgrade = "bob-pumpjack-3",
     },
     {
@@ -379,7 +379,7 @@ if settings.startup["bobmods-mining-pumpjacks"].value == true then
       },
       fast_replaceable_group = "pumpjack",
       circuit_connector = circuit_connector_definitions["pumpjack"],
-      circuit_wire_max_distance = default_circuit_wire_max_distance,
+      circuit_wire_max_distance = 15,
     },
   })
 
