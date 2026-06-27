@@ -42,7 +42,7 @@ if settings.startup["bobmods-assembly-oilfurnaces"].value == true then
       icon = "__base__/graphics/icons/steel-furnace.png",
       icon_size = 64,
       subgroup = "smelting-machine",
-      order = "b[steela-furnace]",
+      order = "b[fluid-furnace]",
       place_result = "bob-fluid-furnace",
       stack_size = 50,
       drop_sound = {
@@ -302,7 +302,7 @@ if settings.startup["bobmods-assembly-oilfurnaces"].value == true then
         icon = "__base__/graphics/icons/steel-furnace.png",
         icon_size = 64,
         subgroup = "bob-smelting-machine",
-        order = "b[chemical-boiler-3]",
+        order = "b[chemical-furnace-3]",
         place_result = "bob-fluid-chemical-furnace",
         stack_size = 50,
         drop_sound = {
