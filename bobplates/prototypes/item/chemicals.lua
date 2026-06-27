@@ -418,6 +418,7 @@ data:extend({
     default_temperature = 15,
     base_color = { r = 0.1, g = 0.3, b = 0.5 },
     flow_color = { r = 0.7, g = 0.7, b = 0.4 },
+    draw_as_glow = true,
   },
   {
     type = "fluid",
@@ -432,6 +433,7 @@ data:extend({
     flow_color = { r = 1, g = 1, b = 0.6 },
     fuel_value = "45kJ",
     emissions_multiplier = 0.1,
+    draw_as_glow = true,
   },
   {
     type = "fluid",
