@@ -8,13 +8,13 @@ bobmods.lib.tech.add_prerequisite("bob-artillery-turret-2", "military-4")
 bobmods.lib.tech.add_prerequisite("bob-artillery-wagon-2", "military-4")
 
 if
-  data.raw.tool["bob-science-pack-gold"]
-  and data.raw.tool["bob-alien-science-pack-blue"]
-  and data.raw.tool["bob-alien-science-pack-orange"]
-  and data.raw.tool["bob-alien-science-pack-purple"]
-  and data.raw.tool["bob-alien-science-pack-yellow"]
-  and data.raw.tool["bob-alien-science-pack-green"]
-  and data.raw.tool["bob-alien-science-pack-red"]
+  data.raw.item["bob-science-pack-gold"]
+  and data.raw.item["bob-alien-science-pack-blue"]
+  and data.raw.item["bob-alien-science-pack-orange"]
+  and data.raw.item["bob-alien-science-pack-purple"]
+  and data.raw.item["bob-alien-science-pack-yellow"]
+  and data.raw.item["bob-alien-science-pack-green"]
+  and data.raw.item["bob-alien-science-pack-red"]
 then
   data.raw.technology["bob-ap-bullets"].unit.ingredients =
     { { "bob-science-pack-gold", 1 }, { "bob-alien-science-pack-blue", 1 } }
