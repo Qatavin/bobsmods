@@ -36,7 +36,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("small-biter", 3.6),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -76,7 +76,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("medium-biter", 2.6),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -116,7 +116,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("big-biter", 1.8),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -156,7 +156,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-biter", 1.5),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -196,7 +196,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-biter", 1.3),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -236,7 +236,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-biter", 1.15),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -276,7 +276,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("behemoth-biter", 1),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -316,7 +316,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-biter", 0.9),
   },
-  buildable_entities = {"biter-spawner", "spitter-spawner"},
+  buildable_entities = { "biter-spawner", "spitter-spawner" },
 })
 
 --Piercing
@@ -386,7 +386,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-small-piercing-biter", 3.6),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -439,7 +439,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-medium-piercing-biter", 2.6),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -493,7 +493,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-big-piercing-biter", 1.8),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -547,7 +547,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-piercing-biter", 1.5),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -601,7 +601,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-piercing-biter", 1.3),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -655,7 +655,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-piercing-biter", 1.15),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -709,7 +709,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-behemoth-piercing-biter", 1),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -763,7 +763,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-piercing-biter", 0.9),
   },
-  buildable_entities = {"bob-piercing-biter-spawner", "bob-piercing-spitter-spawner"},
+  buildable_entities = { "bob-piercing-biter-spawner", "bob-piercing-spitter-spawner" },
 })
 
 --Electric
@@ -848,7 +848,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-small-electric-biter", 3.6),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -917,7 +917,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-medium-electric-biter", 2.6),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -986,7 +986,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-big-electric-biter", 1.8),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1055,7 +1055,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-electric-biter", 1.5),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1124,7 +1124,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-electric-biter", 1.3),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1193,7 +1193,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-electric-biter", 1.15),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1262,7 +1262,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-behemoth-electric-biter", 1),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1331,7 +1331,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-electric-biter", 0.9),
   },
-  buildable_entities = {"bob-electric-biter-spawner", "bob-electric-spitter-spawner"},
+  buildable_entities = { "bob-electric-biter-spawner", "bob-electric-spitter-spawner" },
 })
 
 data.raw.unit["bob-small-electric-biter"].light = {
@@ -1538,7 +1538,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-small-acid-biter", 3.6),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1595,7 +1595,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-medium-acid-biter", 2.6),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1652,7 +1652,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-big-acid-biter", 1.8),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1709,7 +1709,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-acid-biter", 1.5),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1766,7 +1766,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-acid-biter", 1.3),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1823,7 +1823,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-acid-biter", 1.15),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1880,7 +1880,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-behemoth-acid-biter", 1),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -1937,7 +1937,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-acid-biter", 0.9),
   },
-  buildable_entities = {"bob-acid-biter-spawner", "bob-acid-spitter-spawner"},
+  buildable_entities = { "bob-acid-biter-spawner", "bob-acid-spitter-spawner" },
 })
 
 --Explosive
@@ -2049,7 +2049,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-small-explosive-biter", 3.6),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2116,7 +2116,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-medium-explosive-biter", 2.6),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2183,7 +2183,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-big-explosive-biter", 1.8),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2250,7 +2250,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-explosive-biter", 1.5),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2317,7 +2317,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-explosive-biter", 1.3),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2384,7 +2384,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-explosive-biter", 1.15),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2451,7 +2451,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-behemoth-explosive-biter", 1),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2518,7 +2518,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-explosive-biter", 0.9),
   },
-  buildable_entities = {"bob-explosive-biter-spawner", "bob-explosive-spitter-spawner"},
+  buildable_entities = { "bob-explosive-biter-spawner", "bob-explosive-spitter-spawner" },
 })
 
 if settings.startup["bobmods-enemies-healthincrease"].value == true then
@@ -2701,7 +2701,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-small-poison-biter", 3.6),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2756,7 +2756,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-medium-poison-biter", 2.6),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2811,7 +2811,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-big-poison-biter", 1.8),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2866,7 +2866,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-poison-biter", 1.5),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2921,7 +2921,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-poison-biter", 1.3),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -2976,7 +2976,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-poison-biter", 1.15),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3037,7 +3037,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-behemoth-poison-biter", 1),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3098,7 +3098,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-poison-biter", 0.9),
   },
-  buildable_entities = {"bob-poison-biter-spawner", "bob-poison-spitter-spawner"},
+  buildable_entities = { "bob-poison-biter-spawner", "bob-poison-spitter-spawner" },
 })
 
 --Fire
@@ -3164,7 +3164,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-small-fire-biter", 3.6),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3229,7 +3229,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-medium-fire-biter", 2.6),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3294,7 +3294,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-big-fire-biter", 1.8),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3359,7 +3359,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-huge-fire-biter", 1.5),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3424,7 +3424,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-giant-fire-biter", 1.3),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3489,7 +3489,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-titan-fire-biter", 1.15),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3554,7 +3554,7 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-behemoth-fire-biter", 1),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
 
 bobmods.enemies.new_biter({
@@ -3619,5 +3619,5 @@ bobmods.enemies.new_biter({
   factoriopedia_simulation = {
     init = enemy_simulation("bob-leviathan-fire-biter", 0.9),
   },
-  buildable_entities = {"bob-fire-biter-spawner", "bob-fire-spitter-spawner"},
+  buildable_entities = { "bob-fire-biter-spawner", "bob-fire-spitter-spawner" },
 })
