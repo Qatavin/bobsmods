@@ -812,7 +812,7 @@ data:extend({
       volume = 100,
       pipe_covers = bobmods.logistics.pipecoverspictures("plastic"),
       pipe_connections = {
-        { position = { 0, 0 }, direction = defines.direction.north, hide_connection_info = true, },
+        { position = { 0, 0 }, direction = defines.direction.north, hide_connection_info = true },
         {
           position = { 0, 0 },
           direction = defines.direction.south,

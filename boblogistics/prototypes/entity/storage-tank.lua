@@ -166,7 +166,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase * 2,
       pipe_covers = pipecoverspictures(),
@@ -186,28 +186,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = 10,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
 
   {
@@ -223,7 +221,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase * 3,
       pipe_covers = pipecoverspictures(),
@@ -243,28 +241,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = 12.5,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
 
   {
@@ -280,7 +276,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase * 4,
       pipe_covers = pipecoverspictures(),
@@ -299,28 +295,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = 15,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
 })
 
@@ -338,7 +332,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase,
       pipe_covers = pipecoverspictures(),
@@ -361,28 +355,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = default_circuit_wire_max_distance,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
   {
     type = "storage-tank",
@@ -397,7 +389,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase * 2,
       pipe_covers = pipecoverspictures(),
@@ -420,28 +412,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = 10,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
 
   {
@@ -457,7 +447,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase * 3,
       pipe_covers = pipecoverspictures(),
@@ -480,28 +470,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = 12.5,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
 
   {
@@ -517,7 +505,7 @@ data:extend({
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fast_replaceable_group = "storage-tank",
     damaged_trigger_effect = hit_effects.entity(),
-    icon_draw_specification = {scale = 1.5, shift = {0, -0.3}},
+    icon_draw_specification = { scale = 1.5, shift = { 0, -0.3 } },
     fluid_box = {
       volume = storagetankbase * 4,
       pipe_covers = pipecoverspictures(),
@@ -539,28 +527,26 @@ data:extend({
     open_sound = sounds.metal_large_open,
     close_sound = sounds.metal_large_close,
     working_sound = {
-      sound = {filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5},
+      sound = { filename = "__base__/sound/storage-tank.ogg", volume = 0.6, audible_distance_modifier = 0.5 },
       match_volume_to_activity = true,
       max_sounds_per_prototype = 3,
     },
     circuit_connector = circuit_connector_definitions["storage-tank"],
     circuit_wire_max_distance = 15,
-    default_fluid_temperature_signal = {type = "virtual", name = "signal-T"},
-    water_reflection =
-    {
-      pictures =
-      {
+    default_fluid_temperature_signal = { type = "virtual", name = "signal-T" },
+    water_reflection = {
+      pictures = {
         filename = "__base__/graphics/entity/storage-tank/storage-tank-reflection.png",
         priority = "extra-high",
         width = 24,
         height = 24,
         shift = util.by_pixel(5, 35),
         variation_count = 1,
-        scale = 5
+        scale = 5,
       },
       rotate = false,
-      orientation_to_variation = false
-    }
+      orientation_to_variation = false,
+    },
   },
 })
 
