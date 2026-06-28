@@ -236,7 +236,7 @@ if mods["bobpower"] and settings.startup["bobmods-power-nuclear"].value then
       "__bobplates__/graphics/icons/technology/deuterium-nuclear-power.png"
   end
 
-  if mods["quality"] then
+  if mods["recycler"] then
     bobmods.lib.recipe.update_recycling_recipe_single("bob-nuclear-reactor-2", true)
     bobmods.lib.recipe.update_recycling_recipe_single("bob-nuclear-reactor-3", true)
   end
@@ -431,7 +431,9 @@ bobmods.lib.tech.add_prerequisite("productivity-module-3", "bob-advanced-process
 if mods["quality"] then
   bobmods.lib.recipe.replace_ingredient("quality-module-3", "advanced-circuit", "bob-advanced-processing-unit")
   bobmods.lib.tech.add_prerequisite("quality-module-3", "bob-advanced-processing-unit")
+end
 
+if mods["recycler"] then
   bobmods.lib.recipe.update_recycling_recipe({
     "bob-air-pump",
     "bob-air-pump-2",

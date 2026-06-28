@@ -387,7 +387,7 @@ function bobmods.lib.recipe.add_category(recipe_name, category_name)
   end
 end
 
-if mods["quality"] then
+if mods["recycler"] then
   function bobmods.lib.recipe.update_recycling_recipe_icon(recipe_name, icon_name, size)
     --Does not handle multiple icons
     local target_recipe = data.raw.recipe[recipe_name]
@@ -446,7 +446,7 @@ if mods["quality"] then
                 recipe_icon_size = data.raw[item_type][recipe_name].icon_size or 64
                 bobmods.lib.recipe.update_recycling_recipe_icon(target_recipe_name, recipe_icon, recipe_icon_size)
               elseif data.raw[item_type][recipe_name].icons then
-                target_recipe.icons = { { icon = "__quality__/graphics/icons/recycling.png" } }
+                target_recipe.icons = { { icon = "__recycler__/graphics/icons/recycling.png" } }
                 for i, icon_replacement in pairs(data.raw[item_type][recipe_name].icons) do
                   local image_size = icon_replacement.icon_size or 64
                   local image_scale = icon_replacement.scale or 1
@@ -458,7 +458,7 @@ if mods["quality"] then
                     tint = icon_replacement.tint,
                   })
                 end
-                table.insert(target_recipe.icons, { icon = "__quality__/graphics/icons/recycling-top.png" })
+                table.insert(target_recipe.icons, { icon = "__recycler__/graphics/icons/recycling-top.png" })
               end
             end
           end
@@ -527,7 +527,7 @@ if mods["quality"] then
               recipe_icon_size = data.raw[item_type][item_name].icon_size or 64
               bobmods.lib.recipe.update_recycling_recipe_icon(recycling_recipe, recipe_icon, recipe_icon_size)
             elseif data.raw[item_type][item_name].icons then
-              target_recipe.icons = { { icon = "__quality__/graphics/icons/recycling.png" } }
+              target_recipe.icons = { { icon = "__recycler__/graphics/icons/recycling.png" } }
               for i, icon_replacement in pairs(data.raw[item_type][item_name].icons) do
                 local image_size = icon_replacement.icon_size or 64
                 local image_scale = icon_replacement.scale or 1
@@ -539,7 +539,7 @@ if mods["quality"] then
                   tint = icon_replacement.tint,
                 })
               end
-              table.insert(target_recipe.icons, { icon = "__quality__/graphics/icons/recycling-top.png" })
+              table.insert(target_recipe.icons, { icon = "__recycler__/graphics/icons/recycling-top.png" })
             end
           end
         end

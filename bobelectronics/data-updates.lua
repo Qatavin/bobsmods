@@ -14,7 +14,7 @@ if data.raw["recipe-category"]["bob-mixing-furnace"] then
   end
 end
 
-if mods["quality"] then
+if mods["recycler"] then
   bobmods.lib.recipe.update_recycling_recipe({
     "bob-basic-electronic-components",
     "bob-electronic-components",

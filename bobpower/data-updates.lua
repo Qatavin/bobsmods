@@ -29,7 +29,7 @@ data.raw.item["solid-fuel"].fuel_emissions_multiplier = 0.8
 data.raw.item["rocket-fuel"].fuel_emissions_multiplier = 1.2
 data.raw.item["nuclear-fuel"].fuel_emissions_multiplier = 5
 
-if mods["quality"] then
+if mods["recycler"] then
   bobmods.lib.recipe.update_recycling_recipe({
     "accumulator",
     "nuclear-reactor",

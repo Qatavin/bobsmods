@@ -4,7 +4,7 @@ require("prototypes.recipe.module-updates")
 require("prototypes.recipe.module-merged-updates")
 require("prototypes.technology.module-updates")
 
-if mods["quality"] then
+if mods["recycler"] then
   bobmods.lib.recipe.update_recycling_recipe({
     "beacon",
     "bob-beacon-2",
