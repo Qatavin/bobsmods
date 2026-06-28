@@ -256,6 +256,16 @@ if data.raw["item-subgroup"]["bob-alien-artifact"] then
   data.raw["item-subgroup"]["bob-alien-artifact"].group = "bob-resource-products"
 end
 
+for i, recipe in pairs(data.raw.recipe) do
+  if string.sub(recipe.name, -7) == "-barrel" then
+    bobmods.lib.recipe.set_category(recipe.name, "barrelling")
+    if bobmods.lib.tech.has_recipe_unlock("fluid-handling", recipe.name) then
+      bobmods.lib.tech.remove_recipe_unlock("fluid-handling", recipe.name)
+      bobmods.lib.tech.add_recipe_unlock("bob-fluid-barrel-processing", recipe.name)
+    end
+  end
+end
+
 bobmods.lib.create_gas_bottle(data.raw.fluid["bob-hydrogen"])
 bobmods.lib.create_gas_bottle(data.raw.fluid["bob-oxygen"])
 bobmods.lib.create_gas_bottle(data.raw.fluid["bob-nitrogen"])
@@ -277,16 +287,6 @@ bobmods.lib.create_fluid_canister(data.raw.fluid["bob-alien-explosive"])
 bobmods.lib.create_fluid_canister(data.raw.fluid["bob-alien-poison"])
 bobmods.lib.create_fluid_canister(data.raw.fluid["bob-alien-fire"])
 bobmods.lib.create_fluid_canister(data.raw.fluid["bob-tungstic-acid"])
-
-for i, recipe in pairs(data.raw.recipe) do
-  if string.sub(recipe.name, -7) == "-barrel" then
-    bobmods.lib.recipe.set_category(recipe.name, "barrelling")
-    if bobmods.lib.tech.has_recipe_unlock("fluid-handling", recipe.name) then
-      bobmods.lib.tech.remove_recipe_unlock("fluid-handling", recipe.name)
-      bobmods.lib.tech.add_recipe_unlock("bob-fluid-barrel-processing", recipe.name)
-    end
-  end
-end
 
 if settings.startup["bobmods-plates-vanillabarrelling"].value == true then
   bobmods.lib.machine.type_if_add_category("assembling-machine", "crafting-with-fluid", "barrelling") -- Adds barrelling to assembling machines
