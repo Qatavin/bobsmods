@@ -192,6 +192,7 @@ if bobmods.plates and settings.startup["bobmods-revamp-rtg"].value == true then
         categories = { "chemistry" },
         energy_required = 2,
         enabled = false,
+        auto_recycle = false,
         ingredients = {
           { type = "item", name = "bob-ammonium-chloride", amount = 2 },
           { type = "item", name = "bob-limestone", amount = 1 },

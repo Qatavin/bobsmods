@@ -914,6 +914,7 @@ data:extend({
     order = "b[fluid-chemistry]-b[bob-tungstic-acid]",
     categories = { "chemistry" },
     enabled = false,
+    auto_recycle = false,
     energy_required = 2,
     ingredients = {
       { type = "item", name = "tungsten-ore", amount = 2 },

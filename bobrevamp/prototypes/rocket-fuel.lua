@@ -275,6 +275,7 @@ if data.raw.fluid["bob-hydrogen"] and data.raw.fluid["bob-oxygen"] and data.raw.
         name = "bob-enriched-fuel-from-hydrazine",
         categories = { "chemistry" },
         enabled = false,
+        auto_recycle = false,
         energy_required = 12,
         ingredients = {
           { type = "fluid", name = "bob-hydrazine", amount = 100 },

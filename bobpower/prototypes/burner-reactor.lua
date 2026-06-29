@@ -495,6 +495,7 @@ if settings.startup["bobmods-power-heatsources"].value == true then
         localised_name = { "entity-name.bob-fluid-reactor" },
         energy_required = 2,
         enabled = false,
+        auto_recycle = false,
         ingredients = {
           { type = "item", name = "bob-fluid-furnace", amount = 1 },
           { type = "item", name = "heat-pipe", amount = 8 },
