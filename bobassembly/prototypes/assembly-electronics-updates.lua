@@ -85,4 +85,8 @@ if settings.startup["bobmods-assembly-electronicmachines"].value == true then
     data.raw["assembling-machine"]["bob-electronics-machine-2"].ingredient_count = 4
     data.raw["assembling-machine"]["bob-electronics-machine-3"].ingredient_count = 6
   end
+
+  if mods["space-age"] then
+    bobmods.lib.machine.add_category(data.raw["assembling-machine"]["electromagnetic-plant"], "electronics")
+  end
 end

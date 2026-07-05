@@ -615,30 +615,21 @@ if feature_flags["freezing"] then
     data.raw["assembling-machine"]["bob-assembling-machine-4"].graphics_set.reset_animation_when_frozen = true
     data.raw["assembling-machine"]["bob-assembling-machine-5"].graphics_set.reset_animation_when_frozen = true
     data.raw["assembling-machine"]["bob-assembling-machine-6"].graphics_set.reset_animation_when_frozen = true
-    data.raw["assembling-machine"]["bob-assembling-machine-4"].graphics_set.frozen_patch = {
-      filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-2-frozen.png",
-      width = 214,
-      height = 218,
+    data.raw["assembling-machine"]["bob-assembling-machine-4"].graphics_set.frozen_patch = util.sprite_load("__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-2-frozen",
+    {
       priority = "high",
       scale = 0.5,
-      shift = { 0, 0.125 },
-    }
-    data.raw["assembling-machine"]["bob-assembling-machine-5"].graphics_set.frozen_patch = {
-      filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-3-frozen.png",
-      width = 214,
-      height = 237,
+    })
+    data.raw["assembling-machine"]["bob-assembling-machine-5"].graphics_set.frozen_patch = util.sprite_load("__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-3-frozen",
+    {
       priority = "high",
       scale = 0.5,
-      shift = { 0, -0.0234375 },
-    }
-    data.raw["assembling-machine"]["bob-assembling-machine-6"].graphics_set.frozen_patch = {
-      filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-3-frozen.png",
-      width = 214,
-      height = 237,
+    })
+    data.raw["assembling-machine"]["bob-assembling-machine-6"].graphics_set.frozen_patch = util.sprite_load("__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-3-frozen",
+    {
       priority = "high",
       scale = 0.5,
-      shift = { 0, -0.0234375 },
-    }
+    })
 
     local function frozenpatch()
       local result =

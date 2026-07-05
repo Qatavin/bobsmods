@@ -587,30 +587,21 @@ if settings.startup["bobmods-assembly-electronicmachines"].value == true then
       data.raw["assembling-machine"]["bob-electronics-machine-1"].graphics_set.reset_animation_when_frozen = true
       data.raw["assembling-machine"]["bob-electronics-machine-2"].graphics_set.reset_animation_when_frozen = true
       data.raw["assembling-machine"]["bob-electronics-machine-3"].graphics_set.reset_animation_when_frozen = true
-      data.raw["assembling-machine"]["bob-electronics-machine-1"].graphics_set.frozen_patch = {
-        filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-1-frozen.png",
-        width = 214,
-        height = 226,
+      data.raw["assembling-machine"]["bob-electronics-machine-1"].graphics_set.frozen_patch = util.sprite_load("__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-1-frozen",
+      {
         priority = "high",
         scale = 1 / 3,
-        shift = { 0, 0.0625 },
-      }
-      data.raw["assembling-machine"]["bob-electronics-machine-2"].graphics_set.frozen_patch = {
-        filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-2-frozen.png",
-        width = 214,
-        height = 218,
+      })
+      data.raw["assembling-machine"]["bob-electronics-machine-2"].graphics_set.frozen_patch = util.sprite_load("__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-2-frozen",
+      {
         priority = "high",
         scale = 1 / 3,
-        shift = { 0, 0.125 },
-      }
-      data.raw["assembling-machine"]["bob-electronics-machine-3"].graphics_set.frozen_patch = {
-        filename = "__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-3-frozen.png",
-        width = 214,
-        height = 237,
+      })
+      data.raw["assembling-machine"]["bob-electronics-machine-3"].graphics_set.frozen_patch = util.sprite_load("__space-age__/graphics/entity/frozen/assembling-machine/assembling-machine-3-frozen",
+      {
         priority = "high",
         scale = 1 / 3,
-        shift = { 0, -0.0234375 },
-      }
+      })
 
       local function frozenpatch()
         return util.table.deepcopy(
