@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.1
-Date: ???
+Date: 26. 07. 2026
   Bugfixes:
     - Fixed conflict with Module category defaults mod #599
     - Fixed startup crash with Quality mod #611
