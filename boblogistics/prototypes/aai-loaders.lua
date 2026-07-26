@@ -131,12 +131,12 @@ then
         },
       },
       recipe = {
-        crafting_category = "crafting",
+        categories = { "crafting" },
         ingredients = ingredients.basic,
         energy_required = 2,
       },
       unlubricated_recipe = {
-        crafting_category = "crafting",
+        categories = { "crafting" },
         ingredients = unlubricated_ingredients.basic,
         energy_required = 10,
       },
@@ -181,12 +181,12 @@ then
       },
     },
     recipe = {
-      crafting_category = "crafting-with-fluid",
+      categories = { "crafting-with-fluid" },
       ingredients = ingredients.turbo,
       energy_required = 2,
     },
     unlubricated_recipe = {
-      crafting_category = "crafting-with-fluid",
+      categories = { "crafting-with-fluid" },
       ingredients = unlubricated_ingredients.turbo,
       energy_required = 10,
     },
@@ -219,12 +219,12 @@ then
       },
     },
     recipe = {
-      crafting_category = "crafting-with-fluid",
+      categories = { "crafting-with-fluid" },
       ingredients = ingredients.ultimate,
       energy_required = 2,
     },
     unlubricated_recipe = {
-      crafting_category = "crafting-with-fluid",
+      categories = { "crafting-with-fluid" },
       ingredients = unlubricated_ingredients.ultimate,
       energy_required = 10,
     },

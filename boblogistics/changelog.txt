@@ -2,6 +2,7 @@
 Version: 3.0.1
 Date: ???
   Bugfixes:
+    - Fixed crash with AAI Loaders #614
     - Fixed recipes not being available in Electromagnetic plant #615
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.0
