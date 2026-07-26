@@ -14,3 +14,9 @@ data:extend({
     allow_productivity = true,
   },
 })
+
+if data.raw["recipe-category"]["electronics"] then
+  bobmods.lib.recipe.add_category("bob-advanced-processing-unit", "electronics")
+elseif mods["space-age"] then
+  bobmods.lib.recipe.add_category("bob-advanced-processing-unit", "electromagnetics")
+end

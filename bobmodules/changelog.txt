@@ -3,6 +3,7 @@ Version: 3.0.1
 Date: ???
   Bugfixes:
     - Fixed startup crash with Quality mod #611
+    - Fixed recipes not being available in Electromagnetic plant #615
 ---------------------------------------------------------------------------------------------------
 Version: 3.0.0
 Date: 29. 06. 2026

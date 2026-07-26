@@ -1,6 +1,6 @@
 {
   "name": "boblogistics",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "factorio_version": "2.1",
   "title": "Bob's Logistics mod",
   "author": "Bobingabout",
@@ -12,7 +12,7 @@
     "? bobplates >= 3.0.0",
     "? bobinserters >= 3.0.0",
     "? space-age >= 2.1.0",
-    "? valves",
+    "(?) valves",
     "(?) Krastorio2",
     "(?) aai-loaders"
   ],

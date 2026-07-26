@@ -68,9 +68,6 @@ if settings.startup["bobmods-assembly-electronicmachines"].value == true then
   bobmods.lib.recipe.add_category("advanced-circuit", "electronics")
   bobmods.lib.recipe.add_category("processing-unit", "electronics")
 
-  if data.raw.recipe["bob-advanced-processing-unit"] then
-    bobmods.lib.recipe.add_category("bob-advanced-processing-unit", "electronics")
-  end
   if data.raw.item["bob-advanced-processing-unit"] then
     bobmods.lib.recipe.replace_ingredient(
       "bob-electronics-machine-3",
@@ -88,5 +85,6 @@ if settings.startup["bobmods-assembly-electronicmachines"].value == true then
 
   if mods["space-age"] then
     bobmods.lib.machine.add_category(data.raw["assembling-machine"]["electromagnetic-plant"], "electronics")
+    bobmods.lib.machine.add_category(data.raw["assembling-machine"]["electromagnetic-plant"], "electronics-with-fluid")
   end
 end
