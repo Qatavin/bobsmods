@@ -141,7 +141,7 @@ if settings.startup["bobmods-warfare-robotupdate"].value == true then
       bobmods.lib.recipe.add_category("bob-robot-brain-combat", "electromagnetics")
       bobmods.lib.recipe.add_category("bob-robot-brain-combat-2", "electromagnetics")
       bobmods.lib.recipe.add_category("bob-robot-brain-combat-3", "electromagnetics")
-      bobmods.lib.recipe.add_category("bob-robot-brain-combat-4", "electromagnetics")    
+      bobmods.lib.recipe.add_category("bob-robot-brain-combat-4", "electromagnetics")
     end
 
     if data.raw.item["bob-solder"] then
