@@ -2,6 +2,7 @@
 Version: 3.0.1
 Date: ???
   Bugfixes:
+    - Fixed conflict with Module category defaults mod #599
     - Fixed startup crash with Quality mod #611
     - Fixed recipes not being available in Electromagnetic plant #615
 ---------------------------------------------------------------------------------------------------

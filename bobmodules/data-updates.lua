@@ -4,6 +4,12 @@ require("prototypes.recipe.module-updates")
 require("prototypes.recipe.module-merged-updates")
 require("prototypes.technology.module-updates")
 
+if mods["module-category-defaults"] then
+  bobmods.lib.safe_insert(ModuleCategoryDefaults.default_categories, "pollution-clean")
+  bobmods.lib.safe_insert(ModuleCategoryDefaults.default_categories, "pollution-create")
+  bobmods.lib.safe_insert(ModuleCategoryDefaults.default_categories, "god")
+end
+
 if mods["recycler"] then
   bobmods.lib.recipe.update_recycling_recipe({
     "beacon",
